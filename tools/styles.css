@@ -1,0 +1,82 @@
+body{
+    background-color: #E1E2E1;
+    font-family: 'Orbitron', sans-serif;
+}
+header, footer{
+    text-align: center;
+    width: 400px;
+    margin: 30px auto 0px auto;
+}
+h1{
+    padding-bottom: 24px;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+}
+form{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+main{
+    width: 400px;
+    margin: 30px auto 0px auto;
+}
+input{
+    font-family: 'Orbitron', sans-serif;
+    width: 100px;
+    display: inline;
+    border: 1px solid #85ab1d;
+    padding: 10px;
+    border-radius: 4px;
+}
+input[type='submit']{
+    background-color: #f47e17;
+    width: 120px;
+    font-weight: 400;
+}
+select{
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    background-color: #f47e17;
+    width: 200px;
+    padding: 10px;
+    border-radius: 4px;
+}
+/*Ids y clases*/
+#coin1, #coin2, #coin3{
+    width: 20px;
+    text-align: center;
+}
+#button{
+    align-items: center;
+    text-align: center;
+}
+#error{
+    text-align: center;
+    color: #bb5000;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.coins{
+    width: 150px;
+    text-align: center;
+}
+.itemform{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 10px;
+}
+.coins{
+    padding: 10px;
+}
+.itemformmain{
+    text-align: center;
+}

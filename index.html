@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Conversiones</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./tools/reset.css">
+    <link rel="stylesheet" href="./tools/styles.css">
+</head>
+<body>
+    <header>
+        <img src="./tools/02-INFINITYe.png" alt="logo" height="100px">
+    </header>
+    <main>
+        <h1>Bienvenido a tu conversor de monedas favorito</h1>
+        <div>
+            <p id="error"></p>
+        </div>
+        <form action="" id="formulario">
+            <div class="itemformmain">
+                <label for="maincoin">Ingresa aquí la cantidad que deseas convertir</label>
+                <input type="text" name="maincoin" id="maincoin" value="0.0">
+                <select name="coin" id="coin">
+                    <option value="0">--Choose--</option>
+                    <option value="1">Dólares $</option>
+                    <option value="2">Euros €</option>
+                    <option value="3">Soles S/</option>
+                    <option value="4">Libras esterlinas £</option>
+                </select>
+            </div>
+            <div class="itemform">
+                <label for="coinvalue1" class="coins" id="cointext1">Moneda 1</label>
+                <input type="text" name="coinvalue1" id="coinvalue1" value="0" readonly>
+                <input type="text" name="coin1" value="$" id="coin1" readonly>
+            </div>
+            <div class="itemform">
+                <label for="coinvalue2" class="coins" id="cointext2">Moneda 2</label>
+                <input type="text" name="coinvalue2" id="coinvalue2" value="0" readonly>
+                <input type="text" name="coin2" value="$" id="coin2" readonly>
+            </div>
+            <div class="itemform">
+                <label for="coinvalue3" class="coins" id="cointext3">Moneda 3</label>
+                <input type="text" name="coinvalue3" id="coinvalue3" value="0" readonly>
+                <input type="text" name="coin3" value="$" id="coin3" readonly>
+            </div>
+            <div class="itemform" id="button">
+                <input type="submit" value="CONVERTIR" id="convert">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Aplicación de conversión de monedas</p>
+    </footer>
+    <script src="./tools/app.js"></script>
+</body>
+</html>
